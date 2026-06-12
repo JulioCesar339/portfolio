@@ -425,3 +425,18 @@ footer {
 .cert-title { font-weight: 600; font-size: .95rem; color: var(--text); margin-bottom: 3px; }
 .cert-sub   { font-size: 12px; color: var(--muted); margin-bottom: 3px; }
 .cert-link  { font-size: 11px; color: var(--accent2); font-family: 'Space Mono', monospace; }
+/* ── Report link ────────────────────────────────────── */
+.report-link {
+  color: var(--accent);
+  background: rgba(0, 212, 160, .1);
+  border: 1px solid rgba(0, 212, 160, .3);
+  border-radius: 3px;
+  padding: 3px 8px;
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  transition: background .2s;
+}
+.report-link:hover {
+  background: rgba(0, 212, 160, .2);
+  text-decoration: none;
+}
